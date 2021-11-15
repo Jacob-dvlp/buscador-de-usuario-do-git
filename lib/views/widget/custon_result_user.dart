@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../util/coloresutill.dart';
 
@@ -8,7 +9,7 @@ class AppBardefaul extends StatelessWidget implements PreferredSize {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(title),
+      title: title != null ?   Text(title) : const Text(""),
       centerTitle: true,
       backgroundColor: AppColors.primary,
     );
@@ -20,5 +21,5 @@ class AppBardefaul extends StatelessWidget implements PreferredSize {
       );
 
   @override
-  Size get preferredSize => throw UnimplementedError();
+  Size get preferredSize => Size(Get.width, 57);
 }

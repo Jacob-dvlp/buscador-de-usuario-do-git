@@ -12,12 +12,8 @@ class ScreenSplascreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<SplaschController>(
       init: SplaschController(),
-      builder: (_) => Scaffold(
-          appBar: AppBar(
-            backgroundColor: AppColors.primary,
-          ),
-          backgroundColor: AppColors.secondary,
-          body: splasBody()),
+      builder: (_) =>
+          Scaffold(backgroundColor: AppColors.secondary, body: splasBody()),
     );
   }
 }

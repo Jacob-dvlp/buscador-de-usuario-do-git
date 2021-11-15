@@ -28,24 +28,6 @@ Widget custonWidgetBody(state, index) {
                   const SizedBox(
                     width: 90,
                   ),
-                  Align(
-                    alignment: Alignment.topRight,
-                    child: Row(
-                      children: [
-                        state[index]["stargazers_count"] != null
-                            ? Text(
-                                state[index]["stargazers_count"].toString(),
-                                style: const TextStyle(
-                                    fontWeight: FontWeight.bold),
-                              )
-                            : const Text(""),
-                        const Icon(
-                          Icons.star,
-                          color: Colors.yellow,
-                        ),
-                      ],
-                    ),
-                  ),
                 ],
               ),
             ),

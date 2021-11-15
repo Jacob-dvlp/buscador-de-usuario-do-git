@@ -17,12 +17,14 @@ class SearchController extends GetxController {
     }
     return null;
   }
+
   Future nextPage() {
     String argumentinput = inputSearch.text;
     var formOk = formKey.currentState.validate() == true;
     if (!formOk) {
       return null;
     } else {
+    inputSearch.clear();
       return Get.toNamed(AppRouters.resultPage, arguments: [argumentinput]);
     }
   }
