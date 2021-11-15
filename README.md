@@ -4,9 +4,9 @@
 
 ## 📱 Telas que  fazem parte do aplicativo.
 
- ⚙ --Tela de pesquisar  o usuário,
- ⚙ --Telas de mostrar o resultado  da busca caso o usuário existe ou não <br>
- ⚙ --Tela de Mostrar as informações do usuário buscado <br>
+ ⚙ --Tela de pesquisar  o usuário.<br>
+ ⚙ --Telas de mostrar o resultado  da busca caso o usuário existe ou não. <br>
+ ⚙ --Tela de Mostrar as informações do usuário buscado. <br>
  
 
 <br>
