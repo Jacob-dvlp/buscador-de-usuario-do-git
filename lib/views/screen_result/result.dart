@@ -8,18 +8,18 @@ import 'home_controller.dart';
 
 class Result extends GetView<HomeController> {
   const Result({Key key}) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeController>(
       init: HomeController(),
       initState: (_) {},
-      builder: (_) {
+      builder: (_controller) {
         return Scaffold(
           appBar: const AppBardefaul(title: resultAppBar),
           body: controller.obx(
             (state) {
-              return resultBody(state, _);
+              return resultBody(state,_controller);
             },
             onError: (erro) {
               return Center(

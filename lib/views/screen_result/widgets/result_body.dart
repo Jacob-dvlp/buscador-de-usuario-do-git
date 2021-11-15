@@ -2,14 +2,14 @@ import '../../../routes/app_routers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-Widget resultBody(state, _) {
+Widget resultBody(state, _controller) {
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: GestureDetector(
       onTap: () {
         Get.toNamed(AppRouters.perfilGithub, arguments: [
           state,
-          _.dataname[0],
+          _controller.dataname[0],
           state["location"],
           state["following"],
           state["followers"],
@@ -50,7 +50,7 @@ Widget resultBody(state, _) {
                     padding: const EdgeInsets.only(right: 10),
                     child: state["name"] != null
                         ? Text(state["name"])
-                        : Text(_.dataname[0]),
+                        : Text(_controller.dataname[0]),
                   ),
                 ],
               ),

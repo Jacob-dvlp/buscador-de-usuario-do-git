@@ -15,9 +15,9 @@ class ScreenProfile extends GetView<ProfileController> {
       appBar: const AppBardefaul(title: profile),
       body: GetBuilder<ProfileController>(
         init: ProfileController(),
-        builder: (_) => Column(
+        builder: (_controller) => Column(
           children: [
-            custtonWidgetHeader(_),
+            custtonWidgetHeader(_controller),
             Expanded(
               child: controller.obx(
                 (state) => ListView.builder(
