@@ -20,8 +20,8 @@
 
 Neste projecto foi recomedado usar os EndPoint da api do Github:
 
-1 - https://api.github.com/users/{username}  --a mesma lista as informações do usuário,
-2 - https://api.github.com/users/{username}/repos  --a mesma lista os respositórios do usuário pesquisado.
+1 - https://api.github.com/users/{username}  --a mesma lista as informações do usuário, <br>
+2 - https://api.github.com/users/{username}/repos  --a mesma lista os respositórios do usuário pesquisado. <br>
 
 
 
@@ -30,8 +30,8 @@ Neste projecto foi recomedado usar os EndPoint da api do Github:
  ## obs.: Para o funcionamento Do projecto deves configurar seguindo os seguintes passos: #Project setup
 
  1- Baixar o projeto  e abrir no IDE Visual Studio Code ou no Android Studio  <br>
- 2- Executar o comando "flutter pub get" para fazer o download das dependeicas do flutter
- 2  Depos de ter feito o download, executar o seguinte comando "flutter run" ou simplemente usar a tecla F5 DO teclado.
+ 2- Executar o comando "flutter pub get" para fazer o download das dependeicas do flutter <br>
+ 2  Depos de ter feito o download, executar o seguinte comando "flutter run" ou simplemente usar a tecla F5 DO teclado. <br>
 <br>
 ## OBRIGADO
 <br>
