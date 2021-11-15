@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../infra/result_profile.dart';
+import '../../infra/repository/result_profile.dart';
 
 class HomeController extends GetxController with StateMixin<dynamic> {
   var dataname = Get.arguments;

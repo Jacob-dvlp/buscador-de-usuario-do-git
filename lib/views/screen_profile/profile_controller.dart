@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../../infra/result_profile.dart';
+import '../../infra/repository/result_profile.dart';
 
 class ProfileController extends GetxController with StateMixin<dynamic> {
   var data = Get.arguments;

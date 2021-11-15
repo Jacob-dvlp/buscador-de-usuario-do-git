@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../endPoints/endpoints.dart';
+import '../../endPoints/endpoints.dart';
 
 class ServiceSearchUser {
 

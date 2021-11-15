@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../infra/result_profile.dart';
+import '../../infra/repository/result_profile.dart';
 import '../../routes/app_routers.dart';
 
 class SearchController extends GetxController {
