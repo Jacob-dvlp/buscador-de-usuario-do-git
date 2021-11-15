@@ -1,6 +1,5 @@
 import 'package:clone_git_application_flutter/util/coloresutill.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 Widget custtonWidgetHeader(_controller) {
   return SizedBox(
